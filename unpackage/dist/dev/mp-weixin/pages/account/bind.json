@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "my-identifyingcode": "/components/identifyingcode/index",
+    "move-verify": "/components/helang-moveVerify/helang-moveVerify"
+  }
+}

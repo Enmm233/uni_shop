@@ -1,0 +1,39 @@
+
+page{
+	background: #ffffff;
+}
+.not_found{
+	margin-top: 45%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.not_found image{
+	width: 50%;	
+	height: 280rpx;
+	margin-bottom: 40rpx;
+}
+.not_found txt{
+	color: #9F9F9F;
+	font-size: 29rpx;
+	margin-bottom: 50rpx;
+}
+.not_found .btn{
+	color: #4D4D4D;
+	font-size: 30rpx;
+	padding: 5rpx 35rpx;
+	border: 1rpx solid #4D4D4D;
+	border-radius: 50rpx;
+}
+
+

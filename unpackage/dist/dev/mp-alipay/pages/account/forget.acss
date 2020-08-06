@@ -1,0 +1,43 @@
+
+page {
+	background: white;
+}
+.register .get_info {
+	background: white;
+	padding: 0 20rpx;
+	margin-top: 10rpx;
+}
+.register .get_info>view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 80rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-bottom: 1px solid #f7f6f6;
+}
+.register .get_info>view>text {
+	width: 150rpx;
+	color: #808080;
+}
+.register .button_style {
+	font-size: 32rpx;
+	width: 384rpx;
+	height: 64rpx;
+	line-height: 64rpx;
+}
+.register .now_login {
+	color: #A1A1A1;
+	text-align: center;
+	font-size: 24rpx;
+}
+.register .agree {
+	position: fixed;
+	width: 100%;
+	bottom: 20rpx;
+	text-align: center;
+	font-size: 24rpx;
+	color: #418d5f;
+}
+

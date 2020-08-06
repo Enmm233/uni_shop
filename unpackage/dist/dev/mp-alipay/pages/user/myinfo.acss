@@ -1,0 +1,35 @@
+
+.myinfo .get_info {
+	background: white;
+	padding: 0 20rpx;
+	margin-top: 10rpx;
+}
+.myinfo .get_info>view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 80rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-bottom: 1px solid #f7f6f6;
+}
+.myinfo .get_info>view>text {
+	width: 150rpx;
+	color: #808080;
+}
+.myinfo .button_style {
+	font-size: 32rpx;
+	width: 384rpx;
+	height: 64rpx;
+	line-height: 64rpx;
+}
+.myinfo .get_info .avator {
+	height: 120rpx;
+}
+.myinfo .avator image {
+	width: 80rpx !important;
+	height: 80rpx;
+	border-radius: 50%;
+}
+

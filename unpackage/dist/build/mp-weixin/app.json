@@ -1,0 +1,113 @@
+{
+  "pages": [
+    "pages/tabar/index",
+    "pages/tabar/classify",
+    "pages/tabar/order",
+    "pages/tabar/shopcart",
+    "pages/tabar/user"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/index",
+      "pages": [
+        "shopdetail",
+        "collect",
+        "recommed",
+        "newback",
+        "search",
+        "flashsale"
+      ]
+    },
+    {
+      "root": "pages/account",
+      "pages": [
+        "login",
+        "selectway",
+        "forget",
+        "register",
+        "service",
+        "treaty",
+        "bind",
+        "404"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "orderdetail",
+        "address",
+        "pay",
+        "fenjian"
+      ]
+    },
+    {
+      "root": "pages/shopcart",
+      "pages": [
+        "delivery",
+        "pay",
+        "address",
+        "shoplist"
+      ]
+    },
+    {
+      "root": "pages/user",
+      "pages": [
+        "accountmange",
+        "accountadd",
+        "accountedit",
+        "modifypwd",
+        "receipt",
+        "invest",
+        "investlist",
+        "investrecord",
+        "bill",
+        "billdetail",
+        "cash",
+        "cashdetail",
+        "myinfo",
+        "bindphone",
+        "userAddress",
+        "address",
+        "purchase_detail",
+        "purchase_record"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F0F0F0",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#009A44",
+    "list": [
+      {
+        "pagePath": "pages/tabar/index"
+      },
+      {
+        "pagePath": "pages/tabar/classify"
+      },
+      {
+        "pagePath": "pages/tabar/shopcart"
+      },
+      {
+        "pagePath": "pages/tabar/order"
+      },
+      {
+        "pagePath": "pages/tabar/user"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

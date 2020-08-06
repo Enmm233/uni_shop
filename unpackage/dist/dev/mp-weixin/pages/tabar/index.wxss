@@ -1,0 +1,158 @@
+
+.nav {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	padding-bottom: 20rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.nav>view {
+	margin-top: 20rpx;
+	width: 25%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.nav>view text {
+	margin-top: 10rpx;
+}
+.banner image {
+	width: 100%;
+	height: 100%;
+}
+.nav>view image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.banner4 {
+	margin: 10rpx 20rpx 0;
+	height: 200rpx;
+	background: white;
+}
+.banner4 image {
+
+	width: 100%;
+	height: 200rpx;
+}
+.home .limit_buy .head {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.home .limit_buy .title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	align-items: center;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.home .limit_buy .name {
+	margin: 0 12rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+}
+.home .limit_buy .body .good_img {
+	width: 240rpx;
+	height: 200rpx;
+}
+.home .limit_buy .body .price {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.home .limit_buy .whole {
+	overflow-x: scroll;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.home .limit_buy .more {
+	color: #009a44;
+}
+.home .limit_buy .head {
+	padding: 0 20rpx;
+}
+.home .limit_buy .whole {
+	padding: 0 0 20rpx 20rpx;
+}
+.home .limit_buy .icon-jiantou {
+	font-size: 20rpx;
+	height: 32rpx;
+	line-height: 32rpx;
+}
+.whole::-webkit-scrollbar {
+	width: 0;
+	display: none;
+}
+.nav,
+.limit_buy {
+	background: white;
+	/* padding: 0 20rpx; */
+	margin-top: 10rpx;
+}
+.banner,
+.notice {
+	background: white;
+	padding: 0 20rpx;
+}
+.support {
+	text-align: center;
+	color: #808080;
+	margin-bottom: 20rpx;
+	font-size: 28rpx;
+}
+.support text {
+	color: rgb(157, 212, 127);
+}
+.home .uni-countdown__number {
+	height: 30rpx !important;
+
+	color: white !important;
+	border-radius: 4rpx;
+	width: 40rpx !important;
+}
+.home .my_loading {
+	height: 70rpx;
+}
+.home .limit_buy .whole .body {
+	margin-right: 20rpx;
+	width: 33%;
+}
+.home .shuiyin1 {
+	width: 60rpx;
+	height: 20rpx;
+}
+
+
+
+
+
+
+
+
+
+

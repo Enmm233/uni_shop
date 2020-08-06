@@ -1,0 +1,103 @@
+{
+  "pages": [
+    "pages/tabar/index",
+    "pages/tabar/classify",
+    "pages/tabar/order",
+    "pages/tabar/shopcart",
+    "pages/tabar/user"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/index",
+      "pages": [
+        "shopdetail",
+        "collect",
+        "recommed",
+        "newback",
+        "search",
+        "flashsale"
+      ]
+    },
+    {
+      "root": "pages/account",
+      "pages": [
+        "login",
+        "selectway",
+        "forget",
+        "register",
+        "service",
+        "treaty",
+        "bind",
+        "404"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "orderdetail",
+        "address",
+        "pay",
+        "fenjian"
+      ]
+    },
+    {
+      "root": "pages/shopcart",
+      "pages": [
+        "delivery",
+        "pay",
+        "address",
+        "shoplist"
+      ]
+    },
+    {
+      "root": "pages/user",
+      "pages": [
+        "accountmange",
+        "accountadd",
+        "accountedit",
+        "modifypwd",
+        "receipt",
+        "invest",
+        "investlist",
+        "investrecord",
+        "bill",
+        "billdetail",
+        "cash",
+        "cashdetail",
+        "myinfo",
+        "bindphone",
+        "userAddress",
+        "address",
+        "purchase_detail",
+        "purchase_record"
+      ]
+    }
+  ],
+  "window": {
+    "defaultTitle": "",
+    "titleBarColor": "#F0F0F0",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#999999",
+    "selectedColor": "#009A44",
+    "items": [
+      {
+        "pagePath": "pages/tabar/index"
+      },
+      {
+        "pagePath": "pages/tabar/classify"
+      },
+      {
+        "pagePath": "pages/tabar/shopcart"
+      },
+      {
+        "pagePath": "pages/tabar/order"
+      },
+      {
+        "pagePath": "pages/tabar/user"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

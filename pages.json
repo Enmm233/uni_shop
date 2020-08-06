@@ -1,0 +1,185 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabar/index"
+		}, {
+			"path": "pages/tabar/classify"
+		}, {
+			"path": "pages/tabar/order"
+		}, {
+			"path": "pages/tabar/shopcart"
+		}, {
+			"path": "pages/tabar/user"
+		}
+    ],
+	"subPackages": [{
+		"root": "pages/index",
+		"pages": [{
+			"path": "shopdetail"
+		}, {
+			"path": "collect"
+		}, {
+			"path": "recommed"
+		}, {
+			"path": "newback"
+		}, {
+			"path": "search"
+		}, {
+			"path": "flashsale"
+		}]
+	}, {
+		"root": "pages/account",
+		"pages": [{
+				"path": "login"
+			},
+			{
+				"path": "selectway"
+			},
+			{
+				"path": "forget"
+			},
+			{
+				"path": "register"
+			},
+			{
+				"path": "service"
+			},
+			{
+				"path": "treaty"
+			},
+			{
+				"path": "bind"
+			},
+			{
+				"path": "404"
+			}
+		]
+	}, {
+		"root": "pages/order",
+		"pages": [{
+			"path": "orderdetail"
+		}, {
+			"path": "address"
+		}, {
+			"path": "pay"
+		}, {
+			"path": "fenjian"
+		}]
+	}, {
+		"root": "pages/shopcart",
+		"pages": [{
+				"path": "delivery"
+			},
+			{
+				"path": "pay"
+			}, {
+				"path": "address"
+			},
+			{
+				"path": "shoplist"
+			}
+		]
+	},
+	// #ifdef H5
+	{
+		"root": "pages/suyuan",
+		"pages": [{
+				"path": "index"
+			},
+			{
+				"path": "product"
+			}, {
+				"path": "journey"
+			},
+			{
+				"path": "quantity"
+			}
+		]
+	},
+	// #endif
+	{
+		"root": "pages/user",
+		"pages": [{
+				"path": "accountmange"
+			}, {
+				"path": "accountadd"
+			}, {
+				"path": "accountedit"
+			}, {
+				"path": "modifypwd"
+			}, {
+				"path": "receipt"
+			}, {
+				"path": "invest"
+			}, {
+				"path": "investlist"
+			}, {
+				"path": "investrecord"
+			}, {
+				"path": "bill"
+			}, {
+				"path": "billdetail"
+			}, {
+				"path": "cash"
+			}, {
+				"path": "cashdetail"
+			}, {
+				"path": "myinfo"
+			}, {
+				"path": "bindphone"
+			}, {
+				"path": "userAddress"
+			}, {
+				"path": "address"
+			}, {
+				"path": "purchase_detail"
+			}, {
+				"path": "purchase_record"
+			}
+
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F0F0F0",
+		"backgroundColor": "#F8F8F8",
+
+		"app-plus": {
+			"titleNView": false
+		},
+		"h5": {
+			"titleNView": false
+		}
+
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#009A44",
+		"list": [{
+			"pagePath": "pages/tabar/index"
+
+		}, {
+			"pagePath": "pages/tabar/classify"
+
+		}, {
+			"pagePath": "pages/tabar/shopcart"
+
+		}, {
+			"pagePath": "pages/tabar/order"
+
+		}, {
+			"pagePath": "pages/tabar/user"
+
+		}]
+	},
+
+	"easycom": {
+		"autoscan": true, //是否自动扫描组件
+		"custom": { //自定义扫描规则
+			"my-(.*)": "@/components/$1/index.vue"
+			// "uni-(.*)": "@/components/uni-$1/$1.vue"
+
+		}
+	}
+}

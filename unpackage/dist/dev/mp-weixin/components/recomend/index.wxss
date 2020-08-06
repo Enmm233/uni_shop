@@ -1,0 +1,36 @@
+
+.recomend_single {
+	-webkit-box-shadow: 1px 1px 6px #d3d3d3;
+	        box-shadow: 1px 1px 6px #d3d3d3;
+	background: #fff;
+	height: 400rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-radius: 6px;
+	padding: 10rpx;
+	width: 320rpx;
+}
+.recomend_single .photo {
+	width: 100%;
+	height: 200rpx;
+}
+.recomend_single .price {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+

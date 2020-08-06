@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['getCode',['$event']]]]]}}" class="{{['identifying_code',count==true?'greencode':'graycode']}}" bindtap="__e">{{str}}</view>

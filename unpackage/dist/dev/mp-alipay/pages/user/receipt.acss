@@ -1,0 +1,67 @@
+
+.receipt .get_info {
+	background: white;
+	padding: 0 20rpx;
+	margin-top: 10rpx;
+}
+.receipt .get_info>view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 80rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-bottom: 1px solid #f7f6f6;
+}
+.receipt .get_info>view>text {
+	width: 120rpx;
+	text-align: right;
+	margin-right: 30rpx;
+	color: #808080;
+}
+.receipt .button_style {
+	font-size: 32rpx;
+	width: 384rpx;
+	height: 64rpx;
+	line-height: 64rpx;
+}
+.receipt .receipt_select {
+	margin-top: 10rpx;
+}
+.receipt .receipt_select .caution {
+	font-size: 20rpx;
+	color: red;
+	text-align: center;
+	margin-top: 3rpx;
+}
+.receipt .receipt_type {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.receipt .receipt_type>view {
+	width: 164rpx;
+	height: 46rpx;
+	border: 1px solid #009a44;
+	text-align: center;
+	line-height: 46rpx;
+	color: #009A44;
+}
+.receipt .receipt_type .enterprise {
+	border-radius: 4rpx 0 0 4rpx;
+}
+.receipt .receipt_type .person {
+	border-radius: 0rpx 4rpx 4rpx 0;
+}
+.receipt .checked {
+	background: #009A44;
+	color: white !important;
+}
+

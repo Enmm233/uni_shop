@@ -1,0 +1,1 @@
+.invest_list .all_account{margin-top:8rpx}.invest_list .single{padding:20rpx;background:#fff;margin-top:2rpx}.invest_list .single image{width:28rpx;height:28rpx;font-size:24rpx}.invest_list .single .account_info{width:90%}.invest_list .single .account_info>view{height:40rpx;line-height:40rpx}.bitmap{text-align:center;margin-top:20%}.bitmap image{width:50%}

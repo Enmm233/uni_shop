@@ -1,0 +1,7 @@
+
+page {
+	background: #efefef;
+}
+.treaty .content{font-size: 28rpx;padding:10rpx 20rpx;}
+.treaty .content .first{font-size: 28rpx;text-indent: 30rpx;}
+

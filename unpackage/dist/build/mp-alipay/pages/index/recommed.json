@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "my-profile": "/components/profile/index",
+    "my-loading": "/components/loading/index",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "my-keyboard": "/components/keyboard/index",
+    "my-addcart": "/components/addcart/index"
+  }
+}

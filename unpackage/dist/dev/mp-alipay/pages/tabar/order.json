@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "my-o-tabs": "/components/o-tabs/index",
+    "my-loading": "/components/loading/index",
+    "w-picker": "/components/w-picker/w-picker",
+    "my-tabar": "/components/tabar/index"
+  }
+}

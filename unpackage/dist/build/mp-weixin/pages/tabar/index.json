@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "my-search": "/components/search/index",
+    "uni-notice-bar": "/components/uni-notice-bar/uni-notice-bar",
+    "my-countdown": "/components/countdown/index",
+    "my-recomend": "/components/recomend/index",
+    "my-loading": "/components/loading/index",
+    "my-backtop": "/components/backtop/index",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "my-addcart": "/components/addcart/index",
+    "my-tabar": "/components/tabar/index"
+  }
+}

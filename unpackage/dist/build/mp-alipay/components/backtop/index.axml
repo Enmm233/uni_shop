@@ -1,0 +1,1 @@
+<block a:if="{{showTop}}"><view class="back_top"><text data-event-opts="{{[['tap',[['top',['$event']]]]]}}" class="iconfont icon-huidaodingbu" style="{{'bottom:'+(bottom+'px')+';'}}" onTap="__e"></text></view></block>

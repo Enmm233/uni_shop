@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-stepper": "/components/stepper/index"
+  },
+  "component": true
+}

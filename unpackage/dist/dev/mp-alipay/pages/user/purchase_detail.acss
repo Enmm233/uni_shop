@@ -1,0 +1,104 @@
+
+page {
+	background: #FFFFFF !important;
+}
+.purchase_detail .record_detail {
+	width: 100%;
+}
+.uni-searchbar__box {
+	border-style: none !important;
+}
+.uni-searchbar {
+	padding: 0 10px 20px;
+	position: fixed !important;
+	width: 94%;
+}
+.bill_record {
+	background: #FFFFFF;
+	padding: 10px 15px;
+	border-top: 10rpx #F7F6F6 solid;
+	border-bottom: 10rpx #F7F6F6 solid;
+}
+.bill_record .record_box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.bill_record .record_box .img {
+	width: 100px;
+	height: 80px;
+	margin-right: 10px;
+}
+.bill_record .record_box .img image {
+	width: 100px;
+	height: 80px;
+}
+.bill_record .record_box .record_detail .top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.bill_record .record_box .record_detail .top .left {
+	width: 80%;
+}
+.bill_record .record_box .record_detail .top .right {
+	font-size: 12px;
+}
+.bill_record .record_box .record_detail .top .title {
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 10px;
+}
+.bill_record .record_box .record_detail .top .txt {
+	font-size: 12px;
+	color: #C1C1C1;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.bill_record .record_box .record_detail .top .txt:nth-child(2) {
+	color: #808080;
+}
+.bill_record .record_box .record_detail .bottom {
+	/* 	margin-top: 10px;
+	text-align: end;
+	font-size: 14px; */
+}
+.bill_record .record_box .record_detail .bottom text {
+	color: #FF3E1E;
+}
+.pur_list .item {
+	padding: 10px;
+	border-bottom: 1px solid #F7F6F6;
+	background: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.pur_list .item .time {
+	margin-bottom: 5px;
+}
+.pur_list .item .num,
+.pur_list .item .right {
+	font-size: 12px;
+	color: #808080;
+}
+.pur_list .item .num text {
+	margin-right: 10px;
+}
+

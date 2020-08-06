@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "my-loading": "/components/loading/index",
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

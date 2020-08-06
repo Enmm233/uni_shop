@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "date-picker": "/components/w-picker/date-picker",
+    "selector-picker": "/components/w-picker/selector-picker"
+  }
+}

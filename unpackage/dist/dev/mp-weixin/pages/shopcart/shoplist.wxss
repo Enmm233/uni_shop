@@ -1,0 +1,79 @@
+
+.shoplist .icon-shanchu {
+		color: red;
+		font-weight: 700;
+}
+.shoplist .class_name {
+		padding-top: 10rpx;
+}
+.shoplist .shop {
+		background: white;
+		margin-top: 10rpx;
+		padding: 0 20rpx;
+}
+.shoplist .single_good {
+		padding: 10rpx 0;
+		border-bottom: 1px solid #f7f6f6;
+}
+.shoplist .class_tag {
+		background: #009a44;
+		color: #fff;
+		padding: 0 8rpx;
+		margin-right: 10rpx;
+		border-radius: 6rpx;
+}
+.shoplist .good_img {
+		width: 30%;
+}
+.shoplist .good_img .have_img {
+		width: 100%;
+		height: 160rpx;
+}
+.shoplist .include_delete {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		width: 70%;
+}
+.shoplist .include_delete .info {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+}
+.shoplist .mask_overly{
+		position: fixed;
+		width: 100%;
+		top:0;left:0;
+		z-index: 999;
+		height:100%;background-color: rgba(0,0,0,.5);
+}
+.shoplist .remark_dialog{
+		position: fixed;
+		width: 480rpx;
+		top: 300rpx;left:18.5%;
+		z-index: 1000;border-radius: 5px;
+		background-color: white;
+}
+.shoplist .remark_dialog .title{height:80rpx;line-height: 80rpx;text-align: center;}
+.shoplist .remark_dialog .textarea{height: 160rpx;
+    width:80%;
+    border: 1px solid #ccc;
+   padding:10rpx;
+	margin:0 auto;
+    border-radius: 5px;}
+.shoplist .remark_dialog textarea{width:100%;height:100%;}
+.shoplist .remark_dialog .buttons{display: -webkit-box;display: -webkit-flex;display: flex;height: 60rpx;line-height: 60rpx;   border-top: 1px solid #ccc;margin-top:40rpx;}
+.shoplist .remark_dialog .buttons>view{width:50%;text-align: center;}
+.shoplist .remark_dialog .cancel{border-right:1px solid #ccc;}
+.shoplist .gift {margin-top: 10rpx;background: white;padding:0 20rpx;}
+

@@ -1,0 +1,31 @@
+
+.account_mange .all_account {
+	margin-top: 8rpx;
+}
+.account_mange .single {
+	padding: 20rpx;
+	background: white;
+	margin-top: 2rpx;
+}
+.account_mange .single image {
+	width: 28rpx;
+	height: 28rpx;
+	font-size: 24rpx;
+}
+.account_mange .single .account_info {
+	width: 90%;
+}
+.account_mange .single .account_info>view {
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.search_default {
+	text-align: center;
+}
+.search_default image {
+	width: 400rpx;
+	height: 360rpx;
+	margin-top: 150rpx;
+}
+
+

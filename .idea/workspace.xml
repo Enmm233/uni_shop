@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="585da8a7-b95d-4036-9628-51c9d9e89a78" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dwUD6fn85IfqqzFbBCg7SWuO99" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="585da8a7-b95d-4036-9628-51c9d9e89a78" name="Default Changelist" comment="" />
+      <created>1593335526814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593335526814</updated>
+      <workItem from="1593335531398" duration="3220000" />
+      <workItem from="1593395316171" duration="12429000" />
+      <workItem from="1593477866249" duration="6858000" />
+      <workItem from="1593505604073" duration="242000" />
+      <workItem from="1593650938054" duration="92000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593337813008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="319" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593337813008" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1593335634023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593335634023" />
+    <state x="827" y="410" key="publish.login" timestamp="1593395595686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="410" key="publish.login/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593395595686" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+
+.identifying_code {
+	width: 150rpx;
+	height: 38rpx;
+	color: white;
+	border-radius: 6px;
+	text-align: center;
+	padding:0 4rpx;
+}
+.greencode {
+	background: #009a44;
+}
+.graycode {
+	background: #808080;
+}
+

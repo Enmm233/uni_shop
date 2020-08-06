@@ -1,0 +1,1 @@
+<view><view class="not_found"><image src="../../static/img/404.png" mode="aspectFit"></image><txt vue-id="263491e2-1" onVueInit="__l">页面走丢了，试着刷新一下</txt><view data-event-opts="{{[['tap',[['toPage',['$event']]]]]}}" class="btn" onTap="__e">刷新</view></view></view>

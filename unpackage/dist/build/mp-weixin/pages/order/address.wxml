@@ -1,0 +1,1 @@
+<view class="order_detail"><uni-nav-bar vue-id="52cea53c-1" left-icon="arrowleft" title="查看物流" status-bar="{{navBar}}" fixed="true" data-event-opts="{{[['^clickLeft',[['LeftClick']]]]}}" bind:clickLeft="__e" bind:__l="__l"></uni-nav-bar><view class="baidumap _div" id="container"></view></view>

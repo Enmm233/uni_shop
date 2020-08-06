@@ -1,0 +1,1 @@
+<view class="my_countdown"><text class="text" style="{{'background:'+(bgC)+';'}}">{{hour}}</text><text class="text" style="{{'color:'+(lineC)+';'}}">:</text><text class="text" style="{{'background:'+(bgC)+';'}}">{{minus}}</text><text class="text" style="{{'color:'+(lineC)+';'}}">:</text><text class="text" style="{{'background:'+(bgC)+';'}}">{{second}}</text></view>

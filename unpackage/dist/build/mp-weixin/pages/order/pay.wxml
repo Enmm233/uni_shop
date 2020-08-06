@@ -1,0 +1,7 @@
+<view class="invest_record"><uni-nav-bar vue-id="67995bf0-1" left-icon="arrowleft" title="支付信息" status-bar="{{navBar}}" fixed="true" data-event-opts="{{[['^clickLeft',[['leftClick']]]]}}" bind:clickLeft="__e" bind:__l="__l"></uni-nav-bar><view class="tip">如出现下单端账号与支付账号不一样，请到个人中心更改绑定
+
+
+
+
+
+		微信</view><view class="info"><view><text>订单编号</text><text>{{payOrder.order_sn}}</text></view><view><text>配送时间</text><text>{{payOrder.send_time}}</text></view><view><text>订单金额</text><text>{{"￥"+payOrder.total_fee}}</text></view><view><text>我的余额</text><text class="red_font">{{"￥"+payOrder.myBalance}}</text></view><view><text>余额支付</text><text class="red_font">{{"￥"+payOrder.payBalance}}</text></view><view><text>微信支付</text><text class="red_font">{{"￥"+payOrder.payWx}}</text></view></view><view class="notice"><view>注：</view><view>平台不会以订单异常，系统升级等理由要求您点击任何链接进行退款操作，请提高警惕谨防受骗！</view></view><view class="select"><block wx:if="{{payOrder.payType==2}}"><view data-event-opts="{{[['tap',[['querenchongzhi',['$event']]]]]}}" class="determine" bindtap="__e">确认支付</view></block><block wx:if="{{payOrder.payType==1}}"><view data-event-opts="{{[['tap',[['goPay',['$event']]]]]}}" class="determine" bindtap="__e">确认支付</view></block><view data-event-opts="{{[['tap',[['leftClick',['$event']]]]]}}" class="cancel" bindtap="__e">返回订单</view></view></view>

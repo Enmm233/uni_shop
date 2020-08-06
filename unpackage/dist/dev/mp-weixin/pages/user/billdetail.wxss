@@ -1,0 +1,20 @@
+.bill_detail .method_way,
+.bill_detail .order_num,
+.bill_detail .pay_money {
+  background: white;
+  padding: 15rpx 20rpx;
+  margin-top: 10rpx;
+}
+.bill_detail .method_way > view,
+.bill_detail .order_num > view,
+.bill_detail .pay_money > view {
+  margin: 10rpx 0;
+}
+.bill_detail .way {
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.bill_detail .text_right {
+  text-align: right;
+}
+

@@ -1,0 +1,132 @@
+
+page,.user {
+	background: white;
+	/* height: 100%; */
+}
+.user .author image {
+	width: 140rpx;
+	height: 140rpx;
+	margin-right: 20rpx;
+	border-radius: 50%;
+}
+.user .author {
+	background: #094;
+	height: 230rpx;
+	color: white;
+	padding: 0 20rpx;
+}
+.user .back_green {
+	background: #094;
+	height: 80rpx;
+	width: 100%;
+}
+.user .middle {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0 20rpx;
+	position: relative;
+	margin-top: -80rpx;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	line-height: 160rpx;
+	border-radius: 6px;
+	height: 160rpx;
+	-webkit-box-shadow: 1px 1px 4px #e0e0e0;
+	        box-shadow: 1px 1px 4px #e0e0e0;
+	background: #fff;
+}
+.user .middle image {
+	width: 40rpx;
+	height: 40rpx;
+	margin-left: 10rpx;
+}
+.user .middle>view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 33%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.user .middle>view text {
+	margin-left: 10rpx;
+}
+.user .middle .modify_address {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.user .middle .modify_address .address {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.user .middle .modify_address .address image {
+	width: 32rpx;
+}
+.user .middle .modify_address .icon_border {
+	border: 0.5px solid black;
+	height: 25rpx;
+}
+.user .select_operate {
+	padding: 0 20rpx;
+}
+.user .select_operate>view {
+	height: 80rpx;
+}
+.user .select_operate>view .name {
+	margin-left: 10rpx;
+}
+.user button {
+	line-height: 80rpx;
+	padding: 0;
+	background: none;
+	font-size: 28rpx;
+	border: none;
+}
+.user button::after {
+	border: none;
+}
+.share_box {
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+}
+.share_box .item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.share_box .share_msg {
+	width: 70%;
+	height: 310rpx;
+	margin-left: 19%;
+	margin-top: 80rpx;
+}
+.share_box .share_x {
+	width: 50rpx;
+	height: 50rpx;
+	margin-top: 500rpx;
+}
+

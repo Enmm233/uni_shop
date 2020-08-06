@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///E:/Desktop/enterprise/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA,wCAAmB;AACnB;AACA,wF;AACAA,UAAU,CAACC,YAAD,CAAV,C","file":"pages/user/cut.js","sourcesContent":["import 'uni-pages';import '@dcloudio/uni-stat';\nimport Vue from 'vue'\nimport Page from './pages/user/cut.vue'\ncreatePage(Page)"],"sourceRoot":""}

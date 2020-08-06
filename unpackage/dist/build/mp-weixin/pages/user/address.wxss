@@ -1,0 +1,1 @@
+#test{width:100vw;height:100vh}.test image{display:block;border-radius:50%;-webkit-box-shadow:0 0 2px grey;box-shadow:0 0 2px grey;width:35px;position:absolute;top:calc(45% + 44px);left:3%;background:#fff;height:35px}

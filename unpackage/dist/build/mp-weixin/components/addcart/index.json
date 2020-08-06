@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-stepper": "/components/stepper/index",
+    "my-keyboard": "/components/keyboard/index"
+  },
+  "component": true
+}

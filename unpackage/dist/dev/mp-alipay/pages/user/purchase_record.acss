@@ -1,0 +1,122 @@
+
+page {
+		background: #f7f7f7;
+}
+.uni-searchbar__box {
+		border-style: none !important;
+}
+.uni-searchbar {
+		padding: 0 10px 20px;
+		position: fixed !important;
+		width: 94%;
+}
+.total_box{
+	/* 	background: #FFFFFF;
+		text-align: end;
+		padding: 10px 0 0 0; */
+}
+.total_box text{ 
+		color: #FF3E1E;
+}
+.bill {
+		margin-top: 25px;
+}
+.bill .bill_record {
+		background: #FFFFFF;
+		padding: 8rpx 20rpx;
+		margin: 10rpx 0;
+}
+.bill .bill_record .record_box {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.bill .bill_record .record_box .img{
+		width: 100px;
+		height: 80px;
+		margin-right: 10px;
+		z-index: 1;
+}
+.bill .bill_record .record_box .img image{
+		width: 100px;
+		height: 80px;
+}
+.bill .bill_record .record_box .record_detail .top{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+}
+.bill .bill_record .record_box .record_detail .top .left{
+		width: 90%;
+}
+.bill .bill_record .record_box .record_detail .top .right{
+		font-size: 12px;
+}
+.bill .bill_record .record_box .record_detail .top .title{
+		font-size: 14px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		margin-bottom: 10px;
+}
+.bill .bill_record .record_box .record_detail .top .txt{
+		font-size: 12px;
+		color: #808080;
+		display: -webkit-box;
+		-webkit-box-orient:vertical;
+		-webkit-line-clamp:2;
+		overflow: hidden;
+}
+.bill .bill_record .record_box .record_detail .bottom{
+		color: #808080;
+		margin-top: 10px;
+		/* text-align: end; */
+		font-size: 12px;
+}
+.record_detail{width:100%;}
+.bitmap {
+		text-align: center;
+		margin-top: 20%;
+}
+.bitmap image {
+		width: 50%;
+}
+.bill_search {
+		position: fixed;
+		padding: 0 14px 8px 14px;
+		background: white;
+	
+		width: 93%;
+		z-index: 99;
+}
+.search_date {
+		border-radius: 40px;
+		background: #f7f6f5;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		height: 40px;
+		line-height: 40px;
+}
+.loading__text {
+		padding: 10px 0;
+}
+
+
+
+
+
+
+

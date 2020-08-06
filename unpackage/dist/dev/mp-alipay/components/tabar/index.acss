@@ -1,0 +1,47 @@
+
+.my_tabar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	height: 50px;
+	background: white;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	bottom: 0;
+	border-top: 1px solid #efefef;
+}
+.my_tabar .single_tabar .image {
+	width: 25px;
+	height: 25px;
+}
+.my_tabar .single_tabar {
+	width: 25%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 10px;
+}
+.my_tabar .single_tabar .color {
+	color: #009A44;
+}
+.my_tabar .single_tabar .incolor {
+	color: #808080;
+}
+.my_tabar .title{padding-top:2px;}
+
+
+
+
